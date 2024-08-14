@@ -5,6 +5,10 @@ I found that Java code checking for equality of Scala enums was failing
 when the should have passed. I've created this project as a demonstration
 of this behavior. This was with Eclipse Adoptium 21.0.2 and Scala 3.4.2.
 
+*Update - turns out this is [a bug that's been known about for three
+frickin' years](https://github.com/scala/scala3/issues/12637) without
+so much as an on-by-the-way in the docs. Nice.*
+
 ## The Enum
 
 A dead simple Scala enum, that extend `java.lang.Enum` to provide Java
