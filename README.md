@@ -49,7 +49,7 @@ assert(box.isBlue())
 ### Color argument constructor
 
 However, if we pass in `Color.Blue` (which is the only value in the enum)
-to the constructor _isBlue()_ returns false.
+to the constructor, _isBlue()_ returns false.
 **This test fails:**
 
 ```scala
@@ -60,7 +60,7 @@ assert(box.isBlue())
 ### Both Constructors
 
 If we construct two boxes, one using the no-arg constructor and the other
-by passing in `Color.Blue` _isBlue()_ returns true from both.
+by passing in `Color.Blue`, _isBlue()_ returns true from both.
 **This test passes:**
 
 ```scala
